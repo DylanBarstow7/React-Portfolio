@@ -8,7 +8,8 @@ const Hero = () => {
       </div>
       <div className='max-w-md mb-auto space-y-5'>
         <h1 className='text-5xl font-bold md:text-7xl'>Hello. My name is Dylan Barstow </h1>
-        <p>I'm a soon to be graduate of the Washington University 2U Full Stack Web Development program.</p>
+          <p className='tracking-wide leading-relaxed'> I'm a soon to be graduate of the Washington University 2U Full Stack Web Development program. {''}
+        </p>
       </div>
     </section>
   );
