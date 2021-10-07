@@ -4,12 +4,33 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(18, 18, 18);
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1rem;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-rendering: optimizelegibility;
 }
 
 h1 {
   background-color: #4158d0;
-  background: linear-gradient(275deg, #111827 30%, #DC2626 50%, #D1D5DB 70%, #F9FAFB 94%);
+  background-image: linear-gradient(43deg, #DC2626 0%, #D1D5DB 46%, #F9FAFB 100%);
+
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-size: 1.4rem !important;
+  background-color: #8e9ffa;
+  background-image: linear-gradient(45deg, #DC2626 0%, #D1D5DB 10%, #F9FAFB 29%, #111827 100%);
+
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
