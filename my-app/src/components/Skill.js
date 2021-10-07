@@ -5,16 +5,24 @@ const Skill = () => {
     <article className='bg-gray px-4 py-6 rounded-lg shadow-lg'>
       <header className='text-2xl font-bold'>
         <h1>Skills & Tools</h1>
-      </header>
-      <div className=' my-6'>
-        <p className='font-bold'>Dylan Barstow</p>
-        <p className='font-thin'>Saint Louis, Missouri</p>
-        <p className='border-b-2 w-3/6 mt-3 border-gray-300'>dcbarstow7@gmail.com</p>
-      </div>
-      <div className='flex flex-row gap-5'>
-        <img src='./images/github.svg' alt='github' />
-        <img src='./images/linkedin.svg' alt='linkedin' />
-        <img src='./images/codepen.svg' alt='codepen' />
+        </header>
+      <div className='flex flex-row my-6 gap-5 justify-center'>
+        <div className='flex flex-col w-15'>
+          <img src='./img/javascript-original.svg' alt='github' className='w-16 ' />
+          javascript
+        </div>
+        <div className='flex flex-col w-15'>
+          <img src='./img/react-original.svg' alt='github' className='w-16' />
+          React Js
+        </div>
+        <div className='flex flex-col w-15'>
+          <img src='./img/nodejs-original.svg' alt='github' className='w-16' />
+          <span>Node Js</span>
+        </div>
+        <div className='flex flex-col w-15'>
+          <img src='./img/mongodb-original.svg' alt='github' className='w-16' />
+          <span>Mongo DB</span>
+        </div>
       </div>
     </article>
   );
