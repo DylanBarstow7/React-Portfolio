@@ -17,6 +17,9 @@ body {
   text-rendering: optimizelegibility;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 h1 {
   background-color: #4158d0;
   background-image: linear-gradient(43deg, #DC2626 0%, #D1D5DB 46%, #F9FAFB 100%);

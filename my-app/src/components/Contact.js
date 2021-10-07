@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <article className='my-28'>
-      <header className='text-2xl font-bold'>
+    <article className='my-28' id='contact'>
+      <header className='px-5 text-2xl font-bold pt-10'>
         <h>Contact Me</h>
       </header>
       <div className='flex flex-col md:flex-row justify-between md:items-end'>
@@ -12,17 +12,21 @@ const Contact = () => {
             <p className='font-bold'>Dylan Barstow</p>
             <p className='font-thin'>Saint Louis, Missouri</p>
             <p className='border-b-2 mt-3 inline-block border-gray-500'>dcbarstow7@gmail.com</p>
+            <a href='mailto: dcbarstow7@gmail.com' className='border-b-2 mt-3 inline-block border-gray-500'>
+            dcbarstow7@gmail.com
+            </a>
           </div>
           <p className='border-b-2 mt-3 inline-block border-gray-500'>Resume</p>
           <div className='flex flex-row flex-wrap mt-5 space-x-3 '>
             <div className='mr-1  flex flex-row gap-1 items-end border border-gray-500 py-1.5 px-2 rounded-lg text-sm'>
-              <img src='./images/icons/github.svg' alt='github' />
+                <a href= 'https://github.com/DylanBarstow7' target='_blank' rel='noreferrer'>
+                <img src='./images/icons/github.svg' alt='github' />
+              </a>
             </div>
             <div className='mr-1  flex flex-row gap-1 items-end border border-gray-500 py-1.5 px-2 rounded-lg text-sm'>
-              <img src='./images/icons/linkedin.svg' alt='linkedin' />
-            </div>
-            <div className='mr-1  flex flex-row gap-1 items-end border border-gray-500 py-1.5 px-2 rounded-lg text-sm'>
-              <img src='./images/icons/codepen.svg' alt='codepen' />
+              <a href='https://www.linkedin.com/in/dylancbarstow/' target='_blank' rel='noreferrer'>
+                <img src='./images/icons/linkedin.svg' alt='linkedin' />
+              </a>
             </div>
           </div>
         </div>
