@@ -9,7 +9,7 @@ const Project = () => {
         </header>
         <div className='my-7 space-y-24'>
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./img/rn2-mockup.png' alt='MERN eCommerce' className='w-100 md:w-6/12 rounded-lg shadow-lg' />
+            <img src='./images/icons/rn2-mockup.png' alt='MERN eCommerce' className='w-100 md:w-6/12 rounded-lg shadow-lg' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12 '>
               <h3 className='uppercase font-bold text-lg'>MERN eCommerce</h3>
               <p>Full featured, responsive eCommerce store with PayPal payment.</p>
@@ -21,14 +21,14 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>Express</span>
               </div>
               <div className='w-auto flex space-x-5 relative'>
-                <img src='./img/github.svg' alt='github' />
-                <img src='./img/external-link.svg' alt='external link' />
+                <img src='./images/icons/github.svg' alt='github' />
+                <img src='./images/icons/external-link.svg' alt='external link' />
               </div>
             </div>
           </div>
 
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./img/tmdb2-mockup.png' alt='Movie App' className='w-100  md:w-6/12 rounded-lg shadow-lg md:order-1' />
+            <img src='./images/icons/tmdb2-mockup.png' alt='Movie App' className='w-100  md:w-6/12 rounded-lg shadow-lg md:order-1' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12'>
               <h3 className='uppercase font-bold text-lg'>Movie App</h3>
               <p>Movie search app that will search and return movies based on the movie title.</p>
@@ -38,14 +38,14 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>SASS</span>
               </div>
               <div className='w-auto flex space-x-5'>
-                <img src='./img/github.svg' alt='github' />
-                <img src='./img/external-link.svg' alt='external link' />
+                <img src='./images/icons/github.svg' alt='github' />
+                <img src='./images/icons/external-link.svg' alt='external link' />
               </div>
             </div>
           </div>
 
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./img/recipe2-mockup.png' alt='Recipe Finder' className='w-100  md:w-6/12 rounded-lg shadow-lg' />
+            <img src='./images/icons/recipe2-mockup.png' alt='Recipe Finder' className='w-100  md:w-6/12 rounded-lg shadow-lg' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12'>
               <h3 className='uppercase font-bold text-lg'>Recipe Finder</h3>
               <p>Simple app to find and save recpies. API from themealdb.com.</p>
@@ -54,8 +54,8 @@ const Project = () => {
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>API</span>
               </div>
               <div className='w-auto flex space-x-5'>
-                <img src='./img/github.svg' alt='github' />
-                <img src='./img/external-link.svg' alt='external link' />
+                <img src='./images/icons/github.svg' alt='github' />
+                <img src='./images/icons/external-link.svg' alt='external link' />
               </div>
             </div>
           </div>

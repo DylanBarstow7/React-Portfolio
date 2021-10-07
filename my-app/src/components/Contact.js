@@ -16,18 +16,18 @@ const Contact = () => {
           <p className='border-b-2 mt-3 inline-block border-gray-500'>Resume</p>
           <div className='flex flex-row flex-wrap mt-5 space-x-3 '>
             <div className='mr-1  flex flex-row gap-1 items-end border border-gray-500 py-1.5 px-2 rounded-lg text-sm'>
-              <img src='./img/github.svg' alt='github' />
+              <img src='./images/icons/github.svg' alt='github' />
             </div>
             <div className='mr-1  flex flex-row gap-1 items-end border border-gray-500 py-1.5 px-2 rounded-lg text-sm'>
-              <img src='./img/linkedin.svg' alt='linkedin' />
+              <img src='./images/icons/linkedin.svg' alt='linkedin' />
             </div>
             <div className='mr-1  flex flex-row gap-1 items-end border border-gray-500 py-1.5 px-2 rounded-lg text-sm'>
-              <img src='./img/codepen.svg' alt='codepen' />
+              <img src='./images/icons/codepen.svg' alt='codepen' />
             </div>
           </div>
         </div>
         <div className='mt-10 m-auto md:mt-0 max-w-xs md:max-w-md'>
-          <img src='./img/' alt='' />
+          <img src='./images/icons/' alt='' />
         </div>
       </div>
     </article>
