@@ -8,6 +8,7 @@ body {
 }
 
 h1 {
+  background-color: #4158d0;
   background: linear-gradient(275deg, #111827 30%, #DC2626 50%, #D1D5DB 70%, #F9FAFB 94%);
   background-clip: border-box;
   -webkit-background-clip: text;
