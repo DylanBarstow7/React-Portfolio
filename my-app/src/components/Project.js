@@ -9,7 +9,7 @@ const Project = () => {
         </header>
         <div className='my-7 space-y-24'>
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./images/rn2-mockup.png' alt='MERN eCommerce' className='w-100 md:w-6/12 rounded-lg shadow-lg' />
+            <img src='./images/rn-mockup.svg' width='380px' height='280px' alt='MERN eCommerce' className='w-full md:w-6/12 rounded-lg shadow-lg' />
             <div className='flex flex-col overflow-auto space-y-3 my-3 mx-1 w-100 md:w-5/12 '>
               <h3 className='uppercase font-bold text-lg'>MERN eCommerce</h3>
               <p>Full featured, responsive eCommerce store with PayPal payment.</p>
@@ -29,7 +29,7 @@ const Project = () => {
           </div>
 
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./images/tmdb2-mockup.png' alt='Movie App' className='w-100  md:w-6/12 rounded-lg shadow-lg md:order-1' />
+            <img src='./images/tmdb2-mockup.svg' width='380px' height='280px' alt='Movie App' className='w-100  md:w-6/12 rounded-lg shadow-lg md:order-1' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12'>
               <h3 className='uppercase font-bold text-lg'>Movie App</h3>
               <p>*This App is Incomplete* Movie search app that will search and return movies based on the movie title.</p>
@@ -50,7 +50,7 @@ const Project = () => {
           </div>
 
           <div className='flex flex-wrap md:justify-between md:items-center'>
-            <img src='./images/recipe2-mockup.png' alt='Recipe Finder' className='w-100  md:w-6/12 rounded-lg shadow-lg' />
+            <img src='./images/recipe2-mockup.svg' width='380px' height='280px' alt='Recipe Finder' className='w-100  md:w-6/12 rounded-lg shadow-lg' />
             <div className='flex flex-col space-y-3 my-3 mx-1 w-100 md:w-5/12'>
               <h3 className='uppercase font-bold text-lg'>Employee Tracker</h3>
               <p>Employee-Tracker is an application that allows you to access a database of employees, departments, and roles.</p>
