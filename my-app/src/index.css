@@ -50,3 +50,9 @@ svg {
   background-size: cover;
   position: relative;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
