@@ -14,7 +14,7 @@ const Project = () => {
               <h3 className='uppercase font-bold text-lg'>MERN eCommerce</h3>
               <p>Full featured, responsive eCommerce store with PayPal payment.</p>
               <div className='flex overflow-auto space-x-3 pb-2'>
-                <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>React.js</span>
+                <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>React</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>Redux</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>MongoDB</span>
                 <span className='border border-gray-500 px-2 py-1 rounded-lg text-sm'>JWT</span>
