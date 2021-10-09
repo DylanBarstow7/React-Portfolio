@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/DylanBarstow7/React-Portfolio",
   "name": "Dylan's-React-Portfolio",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +22,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
