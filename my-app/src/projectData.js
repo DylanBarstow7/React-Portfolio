@@ -1,4 +1,3 @@
-import React from 'react';
 import Leaderboard from './images/Leaderboard.PNG'; // Tell webpack this JS file uses this image
 import fitnessTrackerHome from './images/fitnessTrackerHome.PNG';
 import NoteTakerHerokuDeployment2 from './images/NoteTakerHerokuDeployment2.PNG'
