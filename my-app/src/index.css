@@ -41,7 +41,7 @@ h3 {
 }
 
 .patterns {
-  background-image: url('./images/bg-effects.png');
+  background-image: url('./images/sky.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,6 +153,18 @@ textarea {
     -webkit-transform: perspective(140px) rotateY(180deg);
     transform: perspective(140px) rotateY(180deg);
     opacity: 0;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
