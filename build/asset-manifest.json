@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/DylanBarstow7/React-Portfolio/static/css/main.7c79f854.chunk.css",
+    "main.js": "/DylanBarstow7/React-Portfolio/static/js/main.074a959a.chunk.js",
+    "main.js.map": "/DylanBarstow7/React-Portfolio/static/js/main.074a959a.chunk.js.map",
+    "runtime-main.js": "/DylanBarstow7/React-Portfolio/static/js/runtime-main.663f38c7.js",
+    "runtime-main.js.map": "/DylanBarstow7/React-Portfolio/static/js/runtime-main.663f38c7.js.map",
+    "static/js/2.b83d2306.chunk.js": "/DylanBarstow7/React-Portfolio/static/js/2.b83d2306.chunk.js",
+    "static/js/2.b83d2306.chunk.js.map": "/DylanBarstow7/React-Portfolio/static/js/2.b83d2306.chunk.js.map",
+    "static/js/3.90d6daae.chunk.js": "/DylanBarstow7/React-Portfolio/static/js/3.90d6daae.chunk.js",
+    "static/js/3.90d6daae.chunk.js.map": "/DylanBarstow7/React-Portfolio/static/js/3.90d6daae.chunk.js.map",
+    "static/js/4.780d6dd5.chunk.js": "/DylanBarstow7/React-Portfolio/static/js/4.780d6dd5.chunk.js",
+    "static/js/4.780d6dd5.chunk.js.map": "/DylanBarstow7/React-Portfolio/static/js/4.780d6dd5.chunk.js.map",
+    "static/js/5.1b80db8c.chunk.js": "/DylanBarstow7/React-Portfolio/static/js/5.1b80db8c.chunk.js",
+    "static/js/5.1b80db8c.chunk.js.map": "/DylanBarstow7/React-Portfolio/static/js/5.1b80db8c.chunk.js.map",
+    "static/js/6.40d400d0.chunk.js": "/DylanBarstow7/React-Portfolio/static/js/6.40d400d0.chunk.js",
+    "static/js/6.40d400d0.chunk.js.map": "/DylanBarstow7/React-Portfolio/static/js/6.40d400d0.chunk.js.map",
+    "static/js/7.1aeaef01.chunk.js": "/DylanBarstow7/React-Portfolio/static/js/7.1aeaef01.chunk.js",
+    "static/js/7.1aeaef01.chunk.js.map": "/DylanBarstow7/React-Portfolio/static/js/7.1aeaef01.chunk.js.map",
+    "static/js/8.3de7b98c.chunk.js": "/DylanBarstow7/React-Portfolio/static/js/8.3de7b98c.chunk.js",
+    "static/js/8.3de7b98c.chunk.js.map": "/DylanBarstow7/React-Portfolio/static/js/8.3de7b98c.chunk.js.map",
+    "static/js/9.2505fd30.chunk.js": "/DylanBarstow7/React-Portfolio/static/js/9.2505fd30.chunk.js",
+    "static/js/9.2505fd30.chunk.js.map": "/DylanBarstow7/React-Portfolio/static/js/9.2505fd30.chunk.js.map",
+    "index.html": "/DylanBarstow7/React-Portfolio/index.html",
+    "static/css/main.7c79f854.chunk.css.map": "/DylanBarstow7/React-Portfolio/static/css/main.7c79f854.chunk.css.map",
+    "static/js/2.b83d2306.chunk.js.LICENSE.txt": "/DylanBarstow7/React-Portfolio/static/js/2.b83d2306.chunk.js.LICENSE.txt",
+    "static/media/Leaderboard.5517a533.PNG": "/DylanBarstow7/React-Portfolio/static/media/Leaderboard.5517a533.PNG",
+    "static/media/NoteTakerHerokuDeployment2.a084e2fd.PNG": "/DylanBarstow7/React-Portfolio/static/media/NoteTakerHerokuDeployment2.a084e2fd.PNG",
+    "static/media/fitnessTrackerHome.f6fb01e7.PNG": "/DylanBarstow7/React-Portfolio/static/media/fitnessTrackerHome.f6fb01e7.PNG",
+    "static/media/index.css": "/DylanBarstow7/React-Portfolio/static/media/sky.d0b629a4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.663f38c7.js",
+    "static/js/2.b83d2306.chunk.js",
+    "static/css/main.7c79f854.chunk.css",
+    "static/js/main.074a959a.chunk.js"
+  ]
+}
