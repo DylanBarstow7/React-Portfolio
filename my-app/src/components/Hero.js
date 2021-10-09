@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Lottie from 'lottie-web';
 import animate from 'lottie-web';
 
@@ -11,7 +11,7 @@ const Hero = () => {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      animationData: require('./astronaout.json'),
+      animationData: require('./animation.json'),
     });
     animate.setSpeed(0.5);
   }, []);
@@ -21,8 +21,8 @@ const Hero = () => {
         <div className='container' ref={container}></div>
       </div>
       <div className='max-w-md mb-auto space-y-5'>
-        <h1 className='text-5xl font-bold md:text-7xl'>Hello. My name is Dylan Barstow </h1>
-          <p className='tracking-wide leading-relaxed'> I'm a soon to be graduate of the Washington University 2U Full Stack Web Development program. {''}
+        <h1 className='text-5xl font-bold md:text-7xl'>Hello. I'm Dylan Barstow </h1>
+          <p className='tracking-wide leading-relaxed'> A soon to be graduate of the Washington University 2U Full Stack Web Development program. {''}
         </p>
       </div>
     </section>

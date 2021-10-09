@@ -6,12 +6,11 @@ const Contact = () => {
       <header className='px-5 text-2xl font-bold pt-10'>
         <h2>Contact Me</h2>
       </header>
-      <div className='md:mx-6 flex flex-col md:flex-row justify-between md:items-end'>
-        <div className='bg-gray px-6 py-8 md:rounded-lg shadow-lg justify-center my-7 md:w-6/12  '>
+      <div className='md:mx-6 flex flex-col md:flex-row justify-between'>
+        <div className='md:w-6/12 md:px-0 p-5 my-5'>
           <div>
             <p className='font-bold'>Dylan Barstow</p>
             <p className='font-thin'>Saint Louis, Missouri</p>
-            <p className='border-b-2 mt-3 inline-block border-gray-500'>dcbarstow7@gmail.com</p>
             <a href='mailto: dcbarstow7@gmail.com' className='border-b-2 mt-3 inline-block border-gray-500'>
             dcbarstow7@gmail.com
             </a>
@@ -20,19 +19,19 @@ const Contact = () => {
             Resume
           </a>
           <div className='flex flex-row flex-wrap mt-7'>
-            <div className='mr-6'>
-            <a href='https://github.com/DylanBarstow7' target='_blank' rel='noreferrer'>
-                <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                  <img src='./images/icons/github.svg' alt='' width='24px' height='24px' className='mr-1' />
-                  GitHub
-                </span>
-              </a>
-            </div>
-            <div className='mr-6'>
-            <a href='https://www.linkedin.com/in/dylancbarstow/' target='_blank' rel='noreferrer'>
+          <div className='mr-4'>
+              <a href='https://www.linkedin.com/in/dylancbarstow/' target='_blank' rel='noreferrer'>
                 <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
                   <img src='./images/icons/linkedin.svg' alt='' width='24px' height='24px' className='mr-1' />
                   LinkedIn
+                </span>
+              </a>
+            </div>
+            <div className='mr-4'>
+              <a href='https://github.com/DylanBarstow7' target='_blank' rel='noreferrer'>
+                <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
+                  <img src='./images/icons/github.svg' alt='' width='24px' height='24px' className='mr-1' />
+                  GitHub
                 </span>
               </a>
             </div>
@@ -55,9 +54,9 @@ const Contact = () => {
       </div>
       <div className='relative md:bottom-56 mr-auto ml-auto md:mr-auto md:ml-0 max-w-xs md:max-w-sm' onClick={() => window.scroll(0, 0)}>
         <picture>
-          <source srcSet='./images/rocket-320.webp 320w, ./images/rocket.webp 768w' type='image/webp' />
-          <source srcSet='./images/rocket.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
-          <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
+          <source srcSet='./images/BMW_M3_E46-removebg-320.png 320w, ./images/BMW_M3_E46-removebg-preview.png 768w' type='image/png' />
+          <source srcSet='./public\images\BMW_M3_E46-removebg-preview.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
+          <img width='500px' height='500px' loading='lazy' alt='BMW E46 M3' />
         </picture>
       </div>
     </section>
